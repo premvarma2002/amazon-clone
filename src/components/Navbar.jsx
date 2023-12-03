@@ -1,4 +1,5 @@
 import React from 'react'
+import { ShoppingCartIcon } from '@heroicons/react/24/outline' 
 
 const Navbar = () => {
   return (
@@ -25,7 +26,7 @@ const Navbar = () => {
                 <div className='text-sm xl:text-base font-bold'>& Orders</div>
             </div>
             <div className=' flex pr-3 pl-3'>
-                
+                <ShoppingCartIcon/>
                 </div>   
     </div>
 </header>

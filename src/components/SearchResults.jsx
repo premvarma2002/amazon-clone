@@ -37,7 +37,7 @@ if (searchTerm) {
         return (
           <Link key={key} to={`/products/${product.id}`}>
           <div className="h-[250px] grid grid-cols-12 rounded mt-1 mb-1">
-            <div className="col-span-2 bg-gray-200">
+            <div className="col-span-2 bg-gray-200 p-4">
               <img className="m-auto" src={product.image_small} alt="" />
             </div>
             <div className="col-span-10 bg-gray-50 border border-gray-100 hover:bg-gray-100">

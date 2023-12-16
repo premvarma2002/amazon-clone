@@ -1,0 +1,122 @@
+import React from 'react'
+import { RiExpandUpDownFill } from "react-icons/ri";
+import { PiGlobeLight } from "react-icons/pi";
+
+const Footer = () => {
+  return (
+    <div className=''>
+    <div className='flex cursor-pointer hover:bg-gray-600 bg-[#37474F]  justify-center items-center text-center text-white text-xs xl:text-base p-3  relative'>Back to top</div>
+
+<div className=' bg-gray-800'>
+    <div className='flex grid-cols-4  p-12 justify-center gap-28  '>
+     <div className=' grid-col-1 text-white '>
+<div className=' text-base font-bold py-1'>Get to Know Us</div>
+<div className='text-sm py-1 hover:underline cursor-pointer'>About Us</div>
+<div className='text-sm py-1 hover:underline cursor-pointer'>Careers</div>
+<div className='text-sm py-1 hover:underline cursor-pointer'>Press Releases</div>
+<div className='text-sm py-1 hover:underline cursor-pointer'>Amazon Science</div>
+</div>
+
+     <div className=' grid-col-1 text-white '>
+<div className=' text-base font-bold py-1'>Connect with Us</div>
+<div className='text-sm py-1 hover:underline cursor-pointer' >Facebook</div>
+<div className='text-sm py-1 hover:underline cursor-pointer'>Twitter</div>
+<div className='text-sm py-1 hover:underline cursor-pointer'>Instagram</div>
+</div>
+
+     <div className=' grid-col-1 text-white '>
+<div className=' text-base font-bold py-1'>Make Money with Us</div>
+<div className='text-sm py-1 hover:underline cursor-pointer'>Sell on Amazon</div>
+<div className='text-sm py-1 hover:underline cursor-pointer'>Sell under Amazon Accelerator</div>
+<div className='text-sm py-1 hover:underline cursor-pointer'>Protect and Build Your Brand</div>
+<div className='text-sm py-1 hover:underline cursor-pointer'>Amazon Global Selling</div>
+<div className='text-sm py-1 hover:underline cursor-pointer'>Become an Affiliate</div>
+<div className='text-sm py-1 hover:underline cursor-pointer'>Fulfilment by Amazon</div>
+<div className='text-sm py-1 hover:underline cursor-pointer'>Advertise Your Products</div>
+<div className='text-sm py-1 hover:underline cursor-pointer'>Amazon Pay on Merchants</div>
+</div>
+
+     <div className=' grid-col-1 text-white '>
+<div className=' text-base font-bold py-1'>Let Us Help You</div>
+<div className='text-sm py-1 hover:underline cursor-pointer'>COVID-19 and Amazon</div>
+<div className='text-sm py-1 hover:underline cursor-pointer'>Your Account</div>
+<div className='text-sm py-1 hover:underline cursor-pointer'>Returns Centre</div>
+<div className='text-sm py-1 hover:underline cursor-pointer'>100% Purchase Protection</div>
+<div className='text-sm py-1 hover:underline cursor-pointer'>Amazon App Download</div>
+<div className='text-sm py-1 hover:underline cursor-pointer'>Help</div>
+</div>
+    </div>
+
+
+    <hr className='w-full h-px  bg-gray-200 border-0 dark:bg-gray-700' /> 
+    <div className=' text-white  bg-gray-800 justify-center'>
+
+      <div className='justify-center pt-8 flex gap-16'>
+        <img src="../images/amazon.png" className='h-8 w-18 justify-center items-center pt-1 ' alt="" />
+        <span className='flex gap-1 border rounded-sm font-light mb-1'> <PiGlobeLight className='h-7 w-5  '/> English <RiExpandUpDownFill className='h-3 w-3 mt-1 ml-4 text-slate-500 mr-1'/></span>
+      </div>
+
+      <div className="flex space-x-2 justify-center text-xs gap-2  pt-8 px-36">
+      <div className='hover:underline cursor-pointer'>Australia</div>
+      <div className='hover:underline cursor-pointer'>Brazil</div>
+      <div className='hover:underline cursor-pointer' >Canada</div>
+      <div className='hover:underline cursor-pointer'>China</div>
+      <div className='hover:underline cursor-pointer'>France</div>
+      <div className='hover:underline cursor-pointer'>Germany</div>
+      <div className='hover:underline cursor-pointer'>Italy</div>
+      <div className='hover:underline cursor-pointer'>Japan</div>
+      <div className='hover:underline cursor-pointer'>Mexico</div>
+      <div className='hover:underline cursor-pointer'>Netherlands</div>
+      <div className='hover:underline cursor-pointer'>Poland</div>
+      <div className='hover:underline cursor-pointer'>Singapore</div>
+      <div className='hover:underline cursor-pointer'>Spain</div>
+      <div className='hover:underline cursor-pointer'>Turkey</div>
+      <div className='hover:underline cursor-pointer'>United Arab Emirates</div>
+      </div>
+      <div className=' items-center flex space-x-2 justify-center text-xs gap-2 pt-1 pb-8'>
+      <div className='hover:underline cursor-pointer break-normal'>United Kingdom</div>
+      <div className='hover:underline cursor-pointer'>United States</div>
+      </div>
+      
+    
+    </div>
+    </div>
+    <div className='flex bg-amazonclone-Footer   justify-center items-center text-center text-white grid-cols-2 '>
+    <div className="flex space-x-4  gap-12">
+      {/* First Div */}
+      <div className=" flex-col ">
+        <div className=''>AbeBooks</div>
+        <div>Books, art</div>
+        <div>& collectibles</div>
+      </div>
+
+      {/* Second Div */}
+      <div className=" ">
+        <div>Amazon Web Services</div>
+        <div>Scalable Cloud</div>
+        <div>Computing Services</div>
+      </div>
+
+      {/* Third Div */}
+      <div className=" ">
+        <div>Audible</div>
+        <div>Download</div>
+        <div>Audio Books</div>
+      </div>
+
+      {/* Fourth Div */}
+      <div className="">
+        <div>IMDb</div>
+        <div>Movies, TV</div>
+        <div>& Celebrities</div>
+      </div>
+    </div>
+      
+   
+
+    </div>
+    </div>
+  )
+}
+
+export default Footer

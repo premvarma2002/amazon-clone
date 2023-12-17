@@ -3,11 +3,20 @@ import { RiExpandUpDownFill } from "react-icons/ri";
 import { PiGlobeLight } from "react-icons/pi";
 
 const Footer = () => {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth", // For smooth scrolling
+    });
+  };
   return (
     <div className="">
-      <div className="flex cursor-pointer hover:bg-gray-600 bg-[#37474F]  justify-center items-center text-center text-white text-xs xl:text-base p-3  relative">
-        Back to top
-      </div>
+      <div
+  className="flex cursor-pointer hover:bg-gray-600 bg-[#37474F] justify-center items-center text-center text-white text-xs xl:text-base p-3 relative"
+  onClick={() => scrollToTop()}
+>
+  Back to top
+</div>
 
       <div className=" bg-gray-800">
         <div className="flex grid-cols-4  p-12 justify-center gap-28  ">

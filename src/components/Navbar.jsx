@@ -1,6 +1,5 @@
 import React from 'react'
 import { useState , useEffect } from 'react'
-import { ShoppingCartIcon } from '@heroicons/react/24/outline' 
 import Search from './Search'
 import { useSelector } from 'react-redux'
 import { Link } from 'react-router-dom'
@@ -97,9 +96,12 @@ const Navbar = () => {
 
   {/* Right side */}
   <div className='flex'>
-    <Link to='https://tinyurl.com/2azrcsm6'>
-      <img src='../images/minitv_banner.jpg' className='h-[1.7rem] w-[20rem] pl-18' alt='' />
-    </Link>
+    {/* <Link to='https://www.primevideo.com/region/eu/offers/nonprimehomepage/ref=dvm_crs_in_s_gw_swm_dk_np_reachlan'>
+      <img src='../images/reacher.jpg' className='h-[1.7rem] w-[20rem] pl-18' alt='' />
+    </Link> */}
+     <a href="https://www.primevideo.com/region/eu/offers/nonprimehomepage/ref=dvm_crs_in_s_gw_swm_dk_np_reachlan" target="_blank" rel="noreferrer noopener">
+    <img src='../images/reacher.jpg' className='h-[1.7rem] w-[20rem] pl-18' alt='' />
+</a>
   </div>
 </div>
 </header>
